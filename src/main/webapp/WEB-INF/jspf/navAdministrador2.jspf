@@ -1,4 +1,5 @@
-
+<%String ania = (String) request.getSession().getAttribute("año");
+ int con = Integer.parseInt(ania);%>
 <div id="wrapper" class="bg-dark">
 
     <!-- Sidebar -->
@@ -19,7 +20,7 @@
                 <a href="#menu2" class="list-group-item d-inline-block collapsed bg-dark text-white" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"><i class="fa fa-chalkboard-teacher"></i>&nbsp;<span>Profesores</span> </a>
                 <div class="collapse" id="menu2">
                     <a href="#ventana3" class="list-group-item text-dark" data-parent="#menu2" data-toggle="modal">Registrar Profesor</a>
-                    <a href="repoprofe.do" class="list-group-item text-dark" data-parent="#menu2">Reporte Profesor</a>
+                    <a href="<%=request.getContextPath()%>/repoprofe.do?an=<%out.print(con);%>" class="list-group-item text-dark" data-parent="#menu2">Reporte Profesor</a>
                 </div>
                 <a href="#menu3" class="list-group-item d-inline-block collapsed bg-dark text-white" data-toggle="collapse" data-parent="#sidebar" aria-expanded="false"><i class="fa fa-puzzle-piece"></i>&nbsp;<span>Secciones</span> </a>
                 <div class="collapse" id="menu3">
