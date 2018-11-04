@@ -31,7 +31,7 @@ request.getRequestDispatcher("index.jsp").forward(request, response);
 }
 String an = (String) request.getSession().getAttribute("año");
  int año = Integer.parseInt(an);
- ListaAulas ls = new ListaAulas(año);
+ ListaAulas ls = new ListaAulas(2018);
  LinkedList<Aula> li= ls.select();
  ListaCursos ls4 = new ListaCursos(año);
     LinkedList<Curso> li4 = ls4.select();

@@ -85,7 +85,7 @@
                            <%}}else{%>
                            <div class="col-md-4">
                                 <div class="card mb-4 box-shadow">
-                                    <img class="card-img-top"  alt="años" style="height: 100%; width: 100%; display: block;" src="img/año.png" data-holder-rendered="true">
+                                    <img class="card-img-top"  alt="años" style="height: 100%; width: 100%; display: block;" src="img/anio.png" data-holder-rendered="true">
                                     <div class="card-body">
                                         <p class="card-text text-center">NO HAY AÑOS ESCOLARES</p>
                                        
