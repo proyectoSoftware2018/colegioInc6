@@ -21,9 +21,9 @@ public class Conexion {
     //aqui esta la contraseña de la Base de datos
     public static final String pass="12345678";
     //finalmente la ruta de la Base de datos como es localhost, con el puerto y el nombre de la BDD
-    public static final String url = "jdbc:mysql://localhost:3306/colegio2";
-   */ 
-    
+    public static final String url = "jdbc:mysql://localhost:3306/colegio1";
+  
+     */ 
    //conexion openshift
     public static final String driver="com.mysql.jdbc.Driver";
     public static final String user="root";

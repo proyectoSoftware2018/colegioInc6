@@ -224,6 +224,7 @@
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="curso" value="<%out.print(cur);%>">   
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="profe" value="<%out.print(pro);%>">
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="bime" value="<%out.print("II");%>">
+                            <input name="an" type="text" style="visibility: hidden; width: 1px; height: 1px;" value="<%out.print(año);%>">
                              <button type="submit" class="btn  btn-success"><i class="fas fa-edit">&nbsp; Editar</i></button>   
                             </form>    
                                     </td>
@@ -300,6 +301,7 @@
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="curso" value="<%out.print(cur);%>">   
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="profe" value="<%out.print(pro);%>">
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="bime" value="<%out.print("III");%>">
+                            <input name="an" type="text" style="visibility: hidden; width: 1px; height: 1px;" value="<%out.print(año);%>">
                              <button type="submit" class="btn  btn-success"><i class="fas fa-edit">&nbsp; Editar</i></button>   
                             </form>    
                                     </td>
@@ -377,6 +379,7 @@
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="curso" value="<%out.print(cur);%>">   
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="profe" value="<%out.print(pro);%>">
                             <input style="visibility: hidden; height: 1px; width: 1px;" name="bime" value="<%out.print("IV");%>">
+                            <input name="an" type="text" style="visibility: hidden; width: 1px; height: 1px;" value="<%out.print(año);%>">
                              <button type="submit" class="btn  btn-success"><i class="fas fa-edit">&nbsp; Editar</i></button>   
                             </form>    
                                     </td>
