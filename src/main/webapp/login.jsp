@@ -26,20 +26,16 @@
         <div class="conteiner-fluid">
             <%@include file="WEB-INF/jspf/cabecera.jspf" %>
             <%@include file="WEB-INF/jspf/nav.jspf" %>
-            <section>
+            <section >
 
-                <div class="row">
+                <div class="row py-3" >
 
                     <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xs-4 col-sm-4"></div>
-                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xs-4 col-sm-4">
-
+                    <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-xs-4 col-sm-4 rounded bg-dark"
+                         style="width: 320px;height: 420px;color: #fff;box-sizing: border-box;padding: 50px 30px;">
+                        <img src="img/avatar.png" style="width: 100px;height: 100px;border-radius: 50%;position: absolute;top: -50px;left: calc(50% - 50px);">
                         <form action="controladorlogin.do" method="post">
-                            <!-- 
-                            ya como te decial jajaj aqui es un formulario normal que tiene cajas de texto
-                            como java textField pero aqui se llama input
-                            y tambien comboBox pero aqui se llama select
-                            esos son los item y esos son los values
-                            -->
+                            
                             <div class="form-group">
                                 <label for="codigo">Usuario:</label>
                                 <input type="text" class="form-control" id="codigo" name="txtCodigo" aria-describedby="emailHelp" placeholder="Usuario">

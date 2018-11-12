@@ -78,13 +78,6 @@ public class ControladorEditarNota extends HttpServlet {
             proc[i] = request.getParameter("pro"+i);
             bime[i] = request.getParameter("bi"+i);
             prome[i] = request.getParameter("p"+i);
-
-                if(EsNumero.validar(oral[i])==false || EsNumero.validar(prac[i])==false || EsNumero.validar(trab[i])==false
-                      || EsNumero.validar(cuad[i])==false || EsNumero.validar(bime[i])==false || EsDouble.validar(proc[i])==false || EsDouble.validar(prome[i])==false){
-                String error = "Error en uno de las notas";
-                request.getSession().setAttribute("error", error);
-                request.getRequestDispatcher("errorProfe.jsp").forward(request, response);   
-                }else{ 
                 
                   Nota not = new Nota(alu[i], profe,curso,grado,secc,bimestre,Integer.parseInt(oral[i]), Integer.parseInt(prac[i]), Integer.parseInt(trab[i]), Integer.parseInt(cuad[i]), Integer.parseInt(bime[i]),(double) Math.round(Double.parseDouble(proc[i])),(double) Math.round(Double.parseDouble(prome[i])),año);
                   
@@ -98,7 +91,7 @@ public class ControladorEditarNota extends HttpServlet {
            
     }
         
-      }  
+        
         if(si==true){
           ListaNotas no = new ListaNotas(año);
           LinkedList<Nota> lis = no.select();

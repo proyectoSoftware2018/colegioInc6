@@ -60,8 +60,9 @@ if (nota == null) {
 <input style="width: 1px; height: 1px; visibility: hidden;" name="sec" value="<%out.print(seccion);%>">
         <button class="btn btn-primary text-white" type="submit"><i class="fas fa-backward">&nbsp; Volver atrás</i></button>   
     </form>
-</div>       
-<div class="row"  style="text-align: center;">
+</div> 
+
+<div class="row"  style="text-align: center;" id="HTMLtoPDF">
           
             <div class="col-12">
             <table class="table table-hover table-light table-responsive-lg table-responsive-md ">
@@ -438,7 +439,6 @@ if (nota == null) {
 </table>
                 </div>
        </div> 
-        
         <%@include file="WEB-INF/jspf/footer.jspf" %> 
         <%@include file="WEB-INF/jspf/jsfooter.jspf" %>
 

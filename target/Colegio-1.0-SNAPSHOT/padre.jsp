@@ -89,7 +89,7 @@ if (nota == null) {
       
       <!-----3----->
       <tr>
-        <td scope="col" colspan="13" class="text-center">BOLETA DE INFORMACIÓN – AÑO ESCOLAR 2018</td>
+        <td scope="col" colspan="13" class="text-center">BOLETA DE INFORMACIÓN – AÑO ESCOLAR <%=año%></td>
 
       </tr>
       
